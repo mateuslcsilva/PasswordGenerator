@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Passwords</title>
+</head>
+<body>
+    <section class='section'>
+        <div class='container columns '>
+           
+            <div class='column is-2 ' id='div'>
+                <div id='div2'class=''>
+                    <label for="acc">Password para:</label>
+                    <input type="text" name="acc" id="acc" class='input margin' placeholder="Netflix, Outlook, ..." autocomplete="off"><br>
+                    <input type="checkbox" class='' id='num'>
+                    <label for="num">Números</label><br>
+                    <input type="checkbox" class='' id='letmin'>
+                    <label for="letmin">Letras Minúsculas</label><br>
+                    <input type="checkbox" class='ck' id='letmai'>
+                    <label for="letmai">Letras Maiúsculas</label><br>
+                    <input type="checkbox" class='' id='simb'>
+                    <label for="simb">Símbolos</label><br><br>
+                    
+                    <p>Números de caracteres</p>
+                    <div class='marginleft'>
+                    
+                        <button class='button btn' id='btn7'>7</button>
+                        <button class='button btn' id='btn8'>8</button>
+                        <button class='button btn' id='btn9'>9</button><br>
+                        <button class='button btn' id='btn10'>10</button>
+                        <button class='button btn' id='btn11'>11</button>
+                        <button class='button btn' id='btn12'>12</button>
+                    </div>
+                    <button class='button btncolor' id='btn'>Gerar Password</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

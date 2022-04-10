@@ -1,0 +1,57 @@
+#div{
+    box-shadow: 2px 2px 2px 0 rgb(112, 106, 106);
+    position: absolute;
+    top: 130px;
+    left: 550px;
+    border: solid 1px rgb(158, 156, 156);
+}
+#btn{
+    margin: 20px 0 0 12px;
+    color: hsl(171, 100%, 41%);
+    font-weight: 600;
+}
+.container{
+    box-shadow: 2px 2px 2px 0 rgb(112, 106, 106);
+}
+.margin{
+    margin-bottom: 20px;
+}
+.marginleft{
+    margin-left: 18px;
+}
+.btn{
+    width: 2.5em;
+    margin-bottom: 5px;
+}
+.btncolor{
+    color: hsl(171, 100%, 41%);
+    font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+    *{
+        font-size: 22pt;
+    }
+    #div{
+        top: 130px;
+        left: 20px;
+    }
+    #btn{
+        margin: 20px 0 0 50px;
+        color: hsl(171, 100%, 41%);
+        font-weight: 600;
+        font-size: 22pt;
+    }
+    .btn{
+        width: 75px;
+        margin-bottom: 5px;
+        font-size: 22pt;
+    }
+    .marginleft{
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+    #acc{
+        margin-top: 20px;
+        height: 70px;
+    }
+  }
