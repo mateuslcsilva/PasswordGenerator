@@ -12,7 +12,7 @@ var letmai = document.querySelector('#letmai')
 let num = document.querySelector('#num')
 let simb = document.querySelector('#simb')
 let btn = document.querySelector('#btn')
-var btn7 = document.querySelector('#btn7')
+var btn6 = document.querySelector('#btn6')
 var btn8 = document.querySelector('#btn8')
 var btn9 = document.querySelector('#btn9')
 var btn10 = document.querySelector('#btn10')
@@ -22,7 +22,7 @@ var div = document.querySelector('#div')
 var div2 = document.querySelector('#div2')
 
 btn.addEventListener('click', clicar)
-btn7.addEventListener('click', clicar7)
+btn6.addEventListener('click', clicar6)
 btn8.addEventListener('click', clicar8)
 btn9.addEventListener('click', clicar9)
 btn10.addEventListener('click', clicar10)
@@ -30,9 +30,9 @@ btn11.addEventListener('click', clicar11)
 btn12.addEventListener('click', clicar12)
 
 
-function clicar7(){
-    tamanho = 7
-    btn7.classList.add('is-primary')
+function clicar6(){
+    tamanho = 6
+    btn6.classList.add('is-primary')
     btn8.classList.remove('is-primary')
     btn9.classList.remove('is-primary')
     btn10.classList.remove('is-primary')
@@ -41,7 +41,7 @@ function clicar7(){
 }
 function clicar8(){
     tamanho = 8
-    btn7.classList.remove('is-primary')
+    btn6.classList.remove('is-primary')
     btn8.classList.add('is-primary')
     btn9.classList.remove('is-primary')
     btn10.classList.remove('is-primary')
@@ -50,7 +50,7 @@ function clicar8(){
 }
 function clicar9(){
     tamanho = 9
-    btn7.classList.remove('is-primary')
+    btn6.classList.remove('is-primary')
     btn8.classList.remove('is-primary')
     btn9.classList.add('is-primary')
     btn10.classList.remove('is-primary')
@@ -59,7 +59,7 @@ function clicar9(){
 }
 function clicar10(){
     tamanho = 10
-    btn7.classList.remove('is-primary')
+    btn6.classList.remove('is-primary')
     btn8.classList.remove('is-primary')
     btn9.classList.remove('is-primary')
     btn10.classList.add('is-primary')
@@ -68,7 +68,7 @@ function clicar10(){
 }
 function clicar11(){
     tamanho = 11
-    btn7.classList.remove('is-primary')
+    btn6.classList.remove('is-primary')
     btn8.classList.remove('is-primary')
     btn9.classList.remove('is-primary')
     btn10.classList.remove('is-primary')
@@ -77,7 +77,7 @@ function clicar11(){
 }
 function clicar12(){
     tamanho = 12
-    btn7.classList.remove('is-primary')
+    btn6.classList.remove('is-primary')
     btn8.classList.remove('is-primary')
     btn9.classList.remove('is-primary')
     btn10.classList.remove('is-primary')
@@ -112,7 +112,8 @@ function clicar(){
             }
             div.removeChild(div2)
             div.style.textAlign = 'center'
-            div.style.width = '300px'
+            div.style.width = '40vh'
+            div.style.height = 'auto'
             div.style.left = '20px'
             div.innerHTML += `Para: <strong>${passwordDe}</strong>  <br>Password: <strong>${password}</strong>`
             var btnrefresh = document.createElement('button')
